@@ -10,5 +10,8 @@ fn main() {
 
     // https://doc.rust-lang.org/stable/book/ch03-00-common-programming-concepts.html
     // common_concepts::tuple();
-    common_concepts::functions();
+    // common_concepts::functions();
+
+    // https://doc.rust-lang.org/book/ch03-05-control-flow.html
+    common_concepts::control_flow();
 }
