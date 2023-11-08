@@ -1,6 +1,7 @@
 
 // mod guessing_game;
-mod common_concepts;
+// mod common_concepts;
+mod ownership;
 
 fn main() {
     println!("The Rust Programming");
@@ -13,5 +14,8 @@ fn main() {
     // common_concepts::functions();
 
     // https://doc.rust-lang.org/book/ch03-05-control-flow.html
-    common_concepts::control_flow();
+    // common_concepts::control_flow();
+
+    // https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
+    ownership::ownership();
 }
