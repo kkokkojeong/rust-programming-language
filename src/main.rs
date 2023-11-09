@@ -17,5 +17,7 @@ fn main() {
     // common_concepts::control_flow();
 
     // https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
-    ownership::ownership();
+    // ownership::ownership();
+    ownership::references();
+    ownership::dangling();
 }
