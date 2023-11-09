@@ -18,6 +18,7 @@ fn main() {
 
     // https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html
     // ownership::ownership();
-    ownership::references();
-    ownership::dangling();
+    // ownership::references();
+    // ownership::dangling();
+    ownership::slice_type();
 }
