@@ -1,7 +1,8 @@
 
 // mod guessing_game;
 // mod common_concepts;
-mod ownership;
+// mod ownership;
+mod structs;
 
 fn main() {
     println!("The Rust Programming");
@@ -20,5 +21,8 @@ fn main() {
     // ownership::ownership();
     // ownership::references();
     // ownership::dangling();
-    ownership::slice_type();
+    // ownership::slice_type();
+
+    // https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#defining-and-instantiating-structs
+    structs::structs();
 }
