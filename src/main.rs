@@ -24,5 +24,5 @@ fn main() {
     // ownership::slice_type();
 
     // https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#defining-and-instantiating-structs
-    structs::structs();
+    structs::structs_example();
 }
