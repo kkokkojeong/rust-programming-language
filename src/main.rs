@@ -28,6 +28,8 @@ fn main() {
     // structs::structs_example();
     // structs::method_syntax();
 
-    enums_pattern_matching::match_control();
+    // enums_pattern_matching::match_control();
+    enums_pattern_matching::if_control_flow();
 }
+
 
