@@ -38,6 +38,21 @@ fn plus_one(x: Option<i32>) -> Option<i32> {
     }
 }
 
+fn dice_roll_ex() {
+    fn add_fancy_hat() {}
+    fn remove_fancy_hat() {}
+    fn roll() {}
+
+    let dice_roll = 9;
+    match dice_roll {
+        3 => add_fancy_hat(),
+        7 => remove_fancy_hat(),
+        // other=> roll(),
+        // _ => roll(),
+        _ => (),
+    }
+}
+
 pub fn match_control() {
     println!("-----match_control-----");
 
