@@ -2,7 +2,8 @@
 // mod guessing_game;
 // mod common_concepts;
 // mod ownership;
-mod structs;
+// mod structs;
+mod enums_pattern_matching;
 
 fn main() {
     println!("The Rust Programming");
@@ -25,6 +26,8 @@ fn main() {
 
     // https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#defining-and-instantiating-structs
     // structs::structs_example();
-    structs::method_syntax();
+    // structs::method_syntax();
+
+    enums_pattern_matching::match_control();
 }
 
