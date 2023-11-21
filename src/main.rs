@@ -3,7 +3,11 @@
 // mod common_concepts;
 // mod ownership;
 // mod structs;
-mod enums_pattern_matching;
+// mod enums_pattern_matching;
+
+mod common_collections;
+
+// pub use crate
 
 
 fn main() {
@@ -30,7 +34,9 @@ fn main() {
     // structs::method_syntax();
 
     // enums_pattern_matching::match_control();
-    enums_pattern_matching::if_control_flow();
+    // enums_pattern_matching::if_control_flow();
+
+    common_collections::list_vectors();
 }
 
 
