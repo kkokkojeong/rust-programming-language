@@ -36,7 +36,9 @@ fn main() {
     // enums_pattern_matching::match_control();
     // enums_pattern_matching::if_control_flow();
 
-    common_collections::list_vectors();
+    // common_collections::list_vectors();
+    common_collections::utf8_encoded_text();
 }
+
 
 
