@@ -6,6 +6,7 @@
 // mod enums_pattern_matching;
 
 mod common_collections;
+mod generic_traits_lifetimes;
 
 // pub use crate
 
@@ -38,7 +39,9 @@ fn main() {
 
     // common_collections::list_vectors();
     // common_collections::utf8_encoded_text();
-    common_collections::hash_maps();
+    // common_collections::hash_maps();
+
+    generic_traits_lifetimes::traits();
 }
 
 
