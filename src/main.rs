@@ -41,7 +41,8 @@ fn main() {
     // common_collections::utf8_encoded_text();
     // common_collections::hash_maps();
 
-    generic_traits_lifetimes::traits();
+    // generic_traits_lifetimes::traits();
+    generic_traits_lifetimes::lifetimes();
 }
 
 
