@@ -19,21 +19,21 @@ fn main() {
     println!("The Rust Programming");
 
     // io
-    let args: Vec<String> = env::args().collect();
-    println!("{:?}", args);
-
-    let query = &args[1];
-    let filename = &args[2];
-
-    println!("Searching for {}", query);
-    println!("In file {}", filename);
-
-    let mut f = File::open(filename).expect("file not found");
-
-    let mut contents = String::new();
-    f.read_to_string(&mut contents).expect("Something went wrong reading the file");
-
-    println!("With text:\n{}", contents);
+    // let args: Vec<String> = env::args().collect();
+    // println!("{:?}", args);
+    //
+    // let query = &args[1];
+    // let filename = &args[2];
+    //
+    // println!("Searching for {}", query);
+    // println!("In file {}", filename);
+    //
+    // let mut f = File::open(filename).expect("file not found");
+    //
+    // let mut contents = String::new();
+    // f.read_to_string(&mut contents).expect("Something went wrong reading the file");
+    //
+    // println!("With text:\n{}", contents);
 
     // https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html
     // guessing_game::guessing();
