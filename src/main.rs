@@ -7,6 +7,7 @@
 
 mod common_collections;
 mod generic_traits_lifetimes;
+mod functional_features;
 
 // pub use crate
 
@@ -63,8 +64,9 @@ fn main() {
     // common_collections::hash_maps();
 
     // generic_traits_lifetimes::traits();
-    generic_traits_lifetimes::lifetimes();
+    // generic_traits_lifetimes::lifetimes();
 
+    functional_features::closures();
 }
 
 
