@@ -108,4 +108,23 @@ pub fn closures() {
         simulated_random_number
     );
 
+    // let x = 4;
+    //
+    // let equal_to_x = |z| z == x;
+    //
+    // let y = 4;
+    //
+    // assert!(equal_to_x(y));
+
+    let x = 4;
+
+    //error[E0434]: can't capture dynamic environment in a fn item
+    fn equal_to_x(z: i32) -> bool { z == x }
+
+    let y = 4;
+
+    assert!(equal_to_x(y));
+
+
+
 }
