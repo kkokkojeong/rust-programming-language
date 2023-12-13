@@ -66,7 +66,8 @@ fn main() {
     // generic_traits_lifetimes::traits();
     // generic_traits_lifetimes::lifetimes();
 
-    functional_features::closures();
+    // functional_features::closures();
+    functional_features::iterators();
 }
 
 
