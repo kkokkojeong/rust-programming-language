@@ -6,3 +6,4 @@
 
 #### 구글 rust 교육 자료
  - https://google.github.io/comprehensive-rust/index.html
+ - https://google.github.io/comprehensive-rust/ko/
