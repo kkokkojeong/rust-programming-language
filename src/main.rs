@@ -2,7 +2,7 @@
 // mod guessing_game;
 // mod common_concepts;
 // mod ownership;
-// mod structs;
+mod structs;
 // mod enums_pattern_matching;
 
 mod common_collections;
@@ -53,6 +53,7 @@ fn main() {
     // ownership::slice_type();
 
     // https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#defining-and-instantiating-structs
+    structs::structs();
     // structs::structs_example();
     // structs::method_syntax();
 

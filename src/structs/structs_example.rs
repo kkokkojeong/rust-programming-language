@@ -1,5 +1,5 @@
 // println! 으로 입력하기 위해서 입력하는 속성
-#[derive(Debug)]
+#[derive(Debug)] // Debug 트레이트 파생하기
 struct Rectangle {
     width: u32,
     height: u32,

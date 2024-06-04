@@ -6,6 +6,7 @@ struct Rectangle {
 
 // implementation
 impl Rectangle {
+    // impl 안에 함수를 연관함수라고 함.
     fn area(&self) -> u32 {
         self.width * self.height
     }
