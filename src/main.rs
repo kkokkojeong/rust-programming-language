@@ -8,6 +8,7 @@ mod structs;
 mod common_collections;
 mod generic_traits_lifetimes;
 mod functional_features;
+mod enums_pattern_matching;
 
 // pub use crate
 
@@ -53,9 +54,11 @@ fn main() {
     // ownership::slice_type();
 
     // https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#defining-and-instantiating-structs
-    structs::structs();
+    // structs::structs();
     // structs::structs_example();
     // structs::method_syntax();
+
+    enums_pattern_matching::enum_ex();
 
     // enums_pattern_matching::match_control();
     // enums_pattern_matching::if_control_flow();
@@ -68,7 +71,7 @@ fn main() {
     // generic_traits_lifetimes::lifetimes();
 
     // functional_features::closures();
-    functional_features::iterators();
+    // functional_features::iterators();
 }
 
 
