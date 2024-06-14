@@ -25,6 +25,10 @@ pub fn if_control_flow() {
         println!("The maximum is configured to be {}", max);
     }
 
+    // if vs match
+    // if 는 간결하지만 모든 케이스를 커버하지 않음
+    // syntax sugar
+
     let coin = Coin::Quarter(UsState::Alaska);
     // let coin = Coin::Penny;
 
